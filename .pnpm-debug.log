@@ -1,0 +1,242 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "npm publish",
+      "version": "1.0.0",
+      "description": "打包代码",
+      "main": "index.js",
+      "scripts": {
+        "dev": "webpack-dev-server --mode development --inline --progress --config ./build/webpack.dev.conf.js",
+        "build": "webpack --mode production --config ./build/webpack.prod.conf.js",
+        "publish": "webpack --mode production --config ./build/webpack.publish.conf.js"
+      },
+      "author": "gaofangshang",
+      "license": "ISC",
+      "dependencies": {
+        "vue-clipboard2": "^0.0.8"
+      },
+      "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-helper-vue-jsx-merge-props": "^2.0.3",
+        "babel-loader": "^7.1.5",
+        "babel-plugin-transform-vue-jsx": "^3.7.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1",
+        "clean-webpack-plugin": "^0.1.19",
+        "css-loader": "^3.6.0",
+        "date-string-transform": "^1.1.9",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^3.2.0",
+        "style-loader": "^2.0.0",
+        "url-loader": "^4.1.1",
+        "vue": "^2.6.12",
+        "vue-loader": "^15.7.0",
+        "vue-router": "^2.3.0",
+        "vue-style-loader": "^3.0.1",
+        "vue-template-compiler": "^2.5.2",
+        "vuex": "^2.2.1",
+        "webpack": "^4.16.3",
+        "webpack-cli": "^3.1.2",
+        "webpack-dev-server": "^3.1.5",
+        "webpack-merge": "^4.1.3"
+      }
+    },
+    "prefix": "E:\\shawn_code\\npm-publish"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "E:\\.pnpm-store\\v3",
+    "virtualStoreDir": "E:\\shawn_code\\npm-publish\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "E:\\shawn_code\\npm-publish",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/url-loader/4.1.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "url-loader",
+      "rawSpec": "^4.1.1"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/url-loader/4.1.1",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "resolved"
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/url-loader/4.1.1",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "found_in_store"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/clean-webpack-plugin/0.1.19",
+    "wanted": {
+      "dependentId": ".",
+      "name": "clean-webpack-plugin",
+      "rawSpec": "^0.1.19"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/clean-webpack-plugin/0.1.19",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "resolved"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/clean-webpack-plugin/0.1.19",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "found_in_store"
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/babel-helper-vue-jsx-merge-props/2.0.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "babel-helper-vue-jsx-merge-props",
+      "rawSpec": "^2.0.3"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/babel-helper-vue-jsx-merge-props/2.0.3",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "resolved"
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/babel-helper-vue-jsx-merge-props/2.0.3",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "found_in_store"
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/babel-plugin-transform-vue-jsx/3.7.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "babel-plugin-transform-vue-jsx",
+      "rawSpec": "^3.7.0"
+    }
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/babel-plugin-transform-vue-jsx/3.7.0",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "resolved"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/babel-plugin-transform-vue-jsx/3.7.0",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "found_in_store"
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/babel-preset-react/6.24.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "babel-preset-react",
+      "rawSpec": "^6.24.1"
+    }
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/babel-preset-react/6.24.1",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "resolved"
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/babel-preset-react/6.24.1",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "found_in_store"
+  },
+  "19 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/vue-style-loader/3.1.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "vue-style-loader",
+      "rawSpec": "^3.0.1"
+    }
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vue-style-loader/3.1.2",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "resolved"
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/vue-style-loader/3.1.2",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "found_in_store"
+  },
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/file-loader/6.2.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "file-loader",
+      "rawSpec": "^6.2.0"
+    }
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/file-loader/6.2.0",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "resolved"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/file-loader/6.2.0",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "found_in_store"
+  },
+  "25 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/css-loader/3.6.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "css-loader",
+      "rawSpec": "^3.6.0"
+    }
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/css-loader/3.6.0",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "resolved"
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/css-loader/3.6.0",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "found_in_store"
+  },
+  "28 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/babel-preset-env/1.7.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "babel-preset-env",
+      "rawSpec": "^1.7.0"
+    }
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/babel-preset-env/1.7.0",
+    "requester": "E:\\shawn_code\\npm-publish",
+    "status": "resolved"
+  },
+  "30 error pnpm": {
+    "code": "ERR_PNPM_MALFORMED_METADATA",
+    "hint": "This might mean that the package was unpublished from the registry",
+    "spec": {
+      "fetchSpec": ">=1.1.9 <2.0.0-0",
+      "name": "date-string-transform",
+      "type": "range"
+    },
+    "err": {
+      "name": "Error",
+      "message": "Received malformed metadata for \"date-string-transform\"",
+      "code": "ERR_PNPM_MALFORMED_METADATA",
+      "stack": "Error: Received malformed metadata for \"date-string-transform\"\n    at default_1 (C:\\Users\\Shawn.Gao\\AppData\\Roaming\\nvm\\v16.14.2\\node_modules\\pnpm\\dist\\pnpm.cjs:84071:15)\n    at exports2.default (C:\\Users\\Shawn.Gao\\AppData\\Roaming\\nvm\\v16.14.2\\node_modules\\pnpm\\dist\\pnpm.cjs:84209:60)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async resolveNpm (C:\\Users\\Shawn.Gao\\AppData\\Roaming\\nvm\\v16.14.2\\node_modules\\pnpm\\dist\\pnpm.cjs:84621:22)\n    at async Object.resolve (C:\\Users\\Shawn.Gao\\AppData\\Roaming\\nvm\\v16.14.2\\node_modules\\pnpm\\dist\\pnpm.cjs:84833:28)\n    at async run (C:\\Users\\Shawn.Gao\\AppData\\Roaming\\nvm\\v16.14.2\\node_modules\\pnpm\\dist\\pnpm.cjs:91297:23)"
+    }
+  },
+  "31 debug pnpm": "Using cached meta from C:\\Users\\Shawn.Gao\\AppData\\Local\\pnpm-cache\\metadata\\registry.npmjs.org\\date-string-transform.json",
+  "32 error pnpm": {
+    "code": "ERR_PNPM_MALFORMED_METADATA",
+    "hint": "This might mean that the package was unpublished from the registry",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "Received malformed metadata for \"date-string-transform\"",
+      "code": "ERR_PNPM_MALFORMED_METADATA",
+      "stack": "pnpm: Received malformed metadata for \"date-string-transform\"\n    at default_1 (C:\\Users\\Shawn.Gao\\AppData\\Roaming\\nvm\\v16.14.2\\node_modules\\pnpm\\dist\\pnpm.cjs:84071:15)\n    at exports2.default (C:\\Users\\Shawn.Gao\\AppData\\Roaming\\nvm\\v16.14.2\\node_modules\\pnpm\\dist\\pnpm.cjs:84220:60)\n    at async resolveNpm (C:\\Users\\Shawn.Gao\\AppData\\Roaming\\nvm\\v16.14.2\\node_modules\\pnpm\\dist\\pnpm.cjs:84621:22)\n    at async Object.resolve (C:\\Users\\Shawn.Gao\\AppData\\Roaming\\nvm\\v16.14.2\\node_modules\\pnpm\\dist\\pnpm.cjs:84833:28)\n    at async run (C:\\Users\\Shawn.Gao\\AppData\\Roaming\\nvm\\v16.14.2\\node_modules\\pnpm\\dist\\pnpm.cjs:91297:23)"
+    }
+  }
+}

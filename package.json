@@ -1,0 +1,40 @@
+{
+  "name": "npm publish",
+  "version": "1.0.0",
+  "description": "打包代码",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --inline --progress --config ./build/webpack.dev.conf.js",
+    "build": "webpack --mode production --config ./build/webpack.prod.conf.js",
+    "publish": "webpack --mode production --config ./build/webpack.publish.conf.js"
+  },
+  "author": "gaofangshang",
+  "license": "ISC",
+  "dependencies": {
+    "vue-clipboard2": "^0.0.8"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.7.0",
+    "vue-router": "^2.3.0",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.5.2",
+    "vuex": "^2.2.1",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-merge": "^4.1.3"
+  }
+}

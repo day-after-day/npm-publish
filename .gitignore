@@ -1,0 +1,14 @@
+/node_modules
+/dist
+/publish
+/.idea
+/npm-debug.log
+**/node_modules
+**/.idea
+**/.sass-cache
+/node/node_modules
+**/.git
+**/.nuxt
+
+
+ react/antd-umi-sys/
